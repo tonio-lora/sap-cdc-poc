@@ -69,3 +69,4 @@ resource synapseStorageUserPermissions 'Microsoft.Authorization/roleAssignments@
 // Outputs for reference in the Post-Deployment Configuration
 output sapdatalakeDFS string = sapdatalake.properties.primaryEndpoints.dfs
 output datalake_name string = sapdatalake.name
+output datalake_key string = listKeys(sapdatalake.id, sapdatalake.apiVersion).keys[0].value
