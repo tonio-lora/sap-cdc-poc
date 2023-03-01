@@ -85,3 +85,5 @@ resource synapse_IR_SAP 'Microsoft.Synapse/workspaces/integrationruntimes@2021-0
 
 
 output synapse_analytics_workspace_name string = synapseWorkspace.name
+output synapse_sql_administrator_login string = synapseWorkspace.properties.sqlAdministratorLogin
+output synapse_sql_administrator_login_password string = synapseWorkspace.properties.sqlAdministratorLoginPassword
