@@ -31,7 +31,7 @@ fi
 
 # Run Bicep deployment
 echo "Starting Bicep deployment"
-az deployment sub create  --name Azure-Synapse-SAP-CDC-PoC --template-file ./main.bicep --parameters ./main.parameters.json
+az deployment sub create --location centralus  --name Azure-Synapse-SAP-CDC-PoC --template-file ./main.bicep --parameters ./main.parameters.json
 
 #
 # Part 2: Post-Deployment Configuration
