@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+        "value": "centralus"
+        },
+        "resource_group_name": {
+        "value": "SAP CDC Demo"
+        },
+        "sapdmdatalake_name": {
+        "value": "sapdmdatalake"
+        },
+        "containerNames": {
+        "value": ["sap", "config"]
+        },
+        "synapse_workspace_name": {
+        "value": "sapsynapseworkspace"
+        },
+        "synapse_sql_administrator_login": {
+        "value": "sqladminuser"
+        },
+        "synapse_sql_administrator_login_password": {
+        "value": "Password.123"
+        },
+        "synapse_IR_SAP_name": {
+        "value": "IR-SAP"
+        },
+        "vm_sap_dm_ir_name": {
+        "value": "sap-dm-ir"
+        },
+        "ir_vm_adminUsername": {
+        "value": "iradmin"
+        },
+        "ir_vm_adminPassword": {
+        "value": "Password.123"
+        },
+        "networkInterfaces_sap_ir_name": {
+        "value": "sap-ir-nic"
+        },
+        "publicIPAddress_sap_ir_name": {
+        "value": "sap-ir-ip"
+        },
+        "networkSecurityGroups_sap_ir_name": {
+        "value": "sap-ir-nsg"
+        }
+    }
+  }
