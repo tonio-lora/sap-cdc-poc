@@ -6,7 +6,7 @@
         "value": "centralus"
         },
         "resource_group_name": {
-        "value": "SAP CDC Demo"
+        "value": "SAP_CDC_Demo"
         },
         "sapdmdatalake_name": {
         "value": "sapdmdatalake"
