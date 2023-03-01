@@ -17,6 +17,9 @@
         "synapse_workspace_name": {
         "value": "sapsynapseworkspace"
         },
+        "synapse_azure_ad_admin_object_id": {
+        "value": "REPLACE_SYNAPSE_AZURE_AD_ADMIN_OBJECT_ID"
+        },
         "synapse_sql_administrator_login": {
         "value": "sqladminuser"
         },
